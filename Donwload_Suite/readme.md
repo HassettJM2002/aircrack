@@ -25,7 +25,9 @@ chmod +x *.sh
 ```
 ## Step 2: Start a Targeted Survey (Optional if you find the channel in Step 2)
 #### Go to a targeted survey and determine the channel, if found in step 1, go to step 3
-
+```
+./TargetedSurvey.sh
+```
 ## Step 3: Start a Channel Specific Suryve
 #### Start the channel survey, this will give you the best survey possible
 
