@@ -18,7 +18,7 @@ chmod +x *.sh
 ./MonitorMode2.sh
 ```
 ## Step 1: Start a Broad Survey
-$\color{Apricot}{hello\}$
+$\color{Apricot}{!! WARNING !!\}$
 ### !! WARNING !! ENSURE YOU MAKE SURE THERE IS ONLY ONE SSID THAT MATCHES, ROUTERS CAN HAVE 2.4GHz and 5GHz NETWORKS WITH THE SAME SSID, BUT DIFFERENT BSSIDS !! WARNING !! 
 ```
 ./BroadSurvey.sh
