@@ -13,13 +13,13 @@ chmod +x *.sh
 
 # How to use
 ## Step 1: Set into Monitor Mode
-#### Start by using a broad survey, find the access point of interest, determine BSSID and if possible, the channel. Copy the BSSID / Channel Number
+#### Set NICs into Monitor Mode
 ```
 ./MonitorMode2.sh
 ```
 ## Step 1: Start a Broad Survey
 #### Start by using a broad survey, find the access point of interest, determine BSSID and if possible, the channel. Copy the BSSID / Channel Number
-
+### !! WARNING !! ENSURE YOU MAKE SURE THERE IS ONLY ONE SSID THAT MATCHES, ROUTERS CAN HAVE 2.4GHz and 5GHz NETWORKS WITH THE SAME SSID, BUT DIFFERENT BSSIDS !! WARNING !! 
 ```
 ./BroadSurvey.sh
 ```
@@ -28,7 +28,7 @@ chmod +x *.sh
 ```
 ./TargetedSurvey.sh
 ```
-## Step 3: Start a Channel Specific Suryve
+## Step 3: Start a Channel Specific Survey
 #### Start the channel survey, this will give you the best survey possible
 
 ```
